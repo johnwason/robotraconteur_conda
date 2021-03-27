@@ -15,5 +15,5 @@ cmake --build . --config Release --target install
 if %errorlevel% neq 0 exit /b %errorlevel%
 cd out\Python3 
 if %errorlevel% neq 0 exit /b %errorlevel%
-%PYTHON% -m pip install . -vv
+%PYTHON% -m pip install --no-deps --ignore-installed . -vv
 if %errorlevel% neq 0 exit /b %errorlevel%

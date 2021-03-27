@@ -11,14 +11,14 @@ requirements:
     - robotraconteur
     - git
     - cmake
-    - boost
+    - boost-cpp==1.74.0
     - ninja
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - yaml-cpp
     - eigen
   run:
-    - boost
+    - boost-cpp
     - robotraconteur
 
 about:

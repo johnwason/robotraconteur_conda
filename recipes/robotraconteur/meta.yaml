@@ -10,7 +10,7 @@ requirements:
   host:
     - git
     - cmake
-    - boost
+    - boost-cpp==1.74.0
     - python==3.8
     - swig
     - numpy
@@ -19,7 +19,7 @@ requirements:
     - {{ compiler('cxx') }}
     - pip
   run:
-    - boost
+    - boost-cpp==1.74.0
     - python==3.8
     - numpy
 
