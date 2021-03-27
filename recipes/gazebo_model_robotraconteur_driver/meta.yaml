@@ -1,0 +1,18 @@
+package:
+  name: gazebo_model_robotraconteur_driver
+  version: 0.1.0
+
+source:
+  git_url: https://github.com/robotraconteur-contrib/GazeboModelRobotRaconteurDriver
+  git_depth: 1
+
+requirements:
+  host:
+    - dotnet-sdk
+  run:
+    - dotnet-runtime
+
+about:
+  home: http://robotraconteur.com
+  license: Apache 2.0
+  summary: 'Robot Raconteur driver for Gazebo models, used to simulate robot controller'
