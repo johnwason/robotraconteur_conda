@@ -14,10 +14,15 @@ requirements:
     - python==3.8
     - swig
     - numpy
-    - ninja
+    - ninja # [win]
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - pip
+    - dbus # [linux]
+    - zlib # [linux]
+    - openssl # [linux]
+    - libusb # [linux]
+    - libbluetooth-headers # [linux]
   run:
     - boost-cpp==1.74.0
     - python==3.8

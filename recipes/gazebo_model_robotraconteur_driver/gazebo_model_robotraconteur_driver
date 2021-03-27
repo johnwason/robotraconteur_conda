@@ -1,0 +1,3 @@
+#!/bin/sh
+
+$CONDA_PREFIX/opt/gazebo_model_robotraconteur_driver/GazeboModelRobotRaconteurDriver "$@"

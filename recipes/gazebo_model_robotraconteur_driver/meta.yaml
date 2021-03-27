@@ -10,7 +10,7 @@ requirements:
   host:
     - dotnet-sdk
   run:
-    - dotnet-runtime
+    - dotnet-sdk
 
 about:
   home: http://robotraconteur.com

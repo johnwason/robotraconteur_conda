@@ -14,7 +14,7 @@ requirements:
     - git
     - cmake
     - boost-cpp==1.74.0
-    - ninja
+    - ninja # [win]
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - yaml-cpp
