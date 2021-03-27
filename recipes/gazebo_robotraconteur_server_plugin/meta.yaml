@@ -1,0 +1,31 @@
+package:
+  name: gazebo_robotraconteur_server_plugin
+  version: 0.1.0
+
+source:
+  git_url: https://github.com/robotraconteur-contrib/RobotRaconteur_Gazebo_Server_Plugin.git
+  git_depth: 1
+
+requirements:
+  host:
+    - robotraconteur
+    - robotraconteur_companion
+    - gazebo
+    - git
+    - cmake
+    - boost-cpp==1.74.0
+    - ninja
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+    - yaml-cpp
+    - eigen
+  run:
+    - boost-cpp==1.74.0
+    - robotraconteur
+    - robotraconteur_companion
+    - gazebo
+
+about:
+  home: https://github.com/robotraconteur-contrib/RobotRaconteur_Gazebo_Server_Plugin
+  license: Apache 2.0
+  summary: 'Robot Raconteur plugin for the Gazebo Robot Simulator'
