@@ -1,6 +1,6 @@
 package:
   name: gazebo_robotraconteur_server_plugin
-  version: 0.1.0
+  version: 0.1.2
 
 source:
   git_url: https://github.com/robotraconteur-contrib/RobotRaconteur_Gazebo_Server_Plugin.git
