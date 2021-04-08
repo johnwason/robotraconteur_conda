@@ -1,10 +1,11 @@
 package:
   name: robotraconteur
-  version: 0.15.1
+  version: 0.15.2
 
 source:
-  url: https://github.com/robotraconteur/robotraconteur/archive/v0.15.1.tar.gz
-  sha256: 2fd45f319e33162f04cbc946edf96aea3eff736744b66c8c9f17817c7667348e
+  git_url: https://github.com/robotraconteur/robotraconteur.git
+  git_depth: 10
+  git_rev: v0.15.2
 
 requirements:
   host:
