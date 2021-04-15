@@ -25,6 +25,7 @@ requirements:
     - gazebo_model_robotraconteur_driver
     - pyyaml
     - py-opencv
+    - qpsolvers
     - robotraconteur_companion_python
 
 about:
