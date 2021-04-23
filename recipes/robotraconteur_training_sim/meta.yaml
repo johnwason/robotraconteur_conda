@@ -1,10 +1,11 @@
 package:
   name: robotraconteur_training_sim
-  version: 0.1.2
+  version: 0.1.4
 
 source:
   git_url: https://github.com/robotraconteur-contrib/robotraconteur_training_sim.git
-  git_depth: 1
+  git_depth: 10
+  git_rev: v0.1.4
 
 requirements:
   host:
@@ -27,6 +28,9 @@ requirements:
     - py-opencv
     - qpsolvers
     - robotraconteur_companion_python
+
+build:
+  noarch: generic
 
 about:
   home: http://robotraconteur.com
